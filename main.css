@@ -1,0 +1,238 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cadetblue;
+    margin-top: 15px;
+}
+
+#pic {
+    width: auto;
+    height: 450px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.allmenu{
+    display: flex;
+    flex-direction: column;
+margin-right: 5px;
+
+}
+
+.burger {
+    border: solid white ;
+    margin-bottom: 10px;
+    background-color: white;
+    
+    font-size: 35px;
+   padding: 16px;
+    border-radius: 10px;
+}
+
+.menuin{
+    border-style: solid ;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.resum {
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.pres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+border-style: ridge;
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.new{
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.contact{
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: none;
+}
+
+.profil {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+    box-shadow: 3px 3px white , 0.5em 0.5em 0.5em 0.5em black;
+}
+.pageresume {
+    background-color: white;
+    padding-left: 20px;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0) , 0.5em 0.5em 0.5em black;
+    padding-left: 1%;
+    width: 60%;
+}
+
+.resume {
+    border-width: 10px;
+    width: 90%;
+}
+
+.skills {
+    border-width: 10px;
+    width: 100%;
+    
+}
+
+label{
+    font-size: small;
+}
+
+#NameDisplay{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+#job{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonlink{
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+margin-top: 270px;
+}
+
+#title1{
+   width: 20%;
+}
+
+#resumetext{
+    width: 55%;
+    border-top: solid;
+    border-right: solid;
+}
+
+.toppage{
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    margin-top: 16px;
+    border-top: solid;
+    padding-left: 2%;
+}
+
+
+
+.compgroup{
+    display: flex;
+}
+
+.groupst{
+    display: flex;
+    width: 100%;
+}
+
+.comp1{
+    border-right: solid;
+    border-top: solid;
+    width: 50%;
+}
+.comp2{
+    border: solid;
+    border-bottom: none;
+    border-left: none;
+    width: 50%;
+}
+
+#agelab{
+   
+    background-color: grey;
+padding: 2%;
+padding-right: 150px;
+
+}
+
+#natlab{
+    background-color:grey;
+    padding: 2%;
+    padding-right: 150px;
+}
+
+#input{
+
+    padding-right: 20%;
+    border-bottom: solid;
+padding-right: 100px;   
+}
+
+
+#htmllogo{
+object-fit: cover;
+width: 10%;
+}
+
+#csslogo{
+object-fit: cover;
+width: 14%;
+}
+
+.turnpage{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.nextbutton{
+border:#666 1px solid;
+font-size:24px;
+cursor:pointer;
+width:80px;
+height:80px;
+border-radius:50%;
+}
+
