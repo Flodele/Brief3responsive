@@ -6,6 +6,7 @@ body {
     margin-top: 15px;
 }
 
+
 #pic {
     width: auto;
     height: 450px;
@@ -16,17 +17,18 @@ body {
 .allmenu{
     display: flex;
     flex-direction: column;
-margin-right: 5px;
-
+    margin-right: 5px;
+    
 }
 
+.p-4 {
+    padding: 0rem!important;
+}
 .burger {
     border: solid white ;
     margin-bottom: 10px;
     background-color: white;
-    
     font-size: 35px;
-   padding: 16px;
     border-radius: 10px;
 }
 
@@ -55,18 +57,6 @@ border-right: none;
     align-items: center;
 border-style: ridge;
 padding-top: 15px;
-padding-bottom: 15px;
-border-top: none;
-border-left: none;
-border-right: none;
-}
-
-.new{
-    border-style: ridge;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 15px;
 padding-bottom: 15px;
 border-top: none;
 border-left: none;
@@ -159,7 +149,6 @@ margin-top: 270px;
     flex-direction: row;
     justify-content: space-between;
     width: 55%;
-    margin-top: 16px;
     border-top: solid;
     padding-left: 2%;
 }
@@ -227,6 +216,163 @@ width: 14%;
     margin-right: 0.5%;
 }
 
+
+
+#pic {
+    width: auto;
+    height: 450px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.allmenu{
+    display: flex;
+    flex-direction: column;
+margin-right: 5px;
+
+}
+
+.p-4 {
+    padding: 0rem!important;
+}
+.burger {
+    border: solid white ;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.menuin{
+    border-style: solid ;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.resum {
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.pres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+border-style: ridge;
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+
+
+.contact{
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: none;
+}
+
+.profil {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+    box-shadow: 3px 3px white , 0.5em 0.5em 0.5em 0.5em black;
+}
+.pagebio {
+    background-color: white;
+    padding-left: 20px;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0) , 0.5em 0.5em 0.5em black;
+    padding-left: 1%;
+    width: 60%;
+}
+
+.resume {
+    border-width: 10px;
+    width: 90%;
+}
+
+
+
+label{
+    font-size: small;
+}
+
+#NameDisplay{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+#job{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonlink{
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+margin-top: 270px;
+}
+
+#title1{
+    width: auto;
+    padding-top: 1%;
+}
+
+#resumetext{
+    width: 55%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    
+}
+
+#resumetext2{
+    width: 55%;
+    border-top: solid;
+    border-bottom: solid;
+}
+
+.toppage{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+}
+
+
+.turnpage{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
 .nextbutton{
 border:#666 1px solid;
 font-size:24px;
@@ -234,5 +380,174 @@ cursor:pointer;
 width:80px;
 height:80px;
 border-radius:50%;
+margin-bottom: 25%;
 }
 
+h4{
+    font-size: 150%;
+    margin-block-start: 0.5em;
+    margin-block-end: 0em;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cadetblue;
+    margin-top: 15px;
+}
+
+#pic {
+    width: auto;
+    height: 450px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.allmenu{
+    display: flex;
+    flex-direction: column;
+margin-right: 5px;
+
+}
+
+.p-4 {
+    padding: 0rem!important;
+}
+.burger {
+    border: solid white ;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.menuin{
+    border-style: solid ;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.resum {
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+.pres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+border-style: ridge;
+padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+
+
+.contact{
+    border-style: ridge;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+padding-bottom: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: none;
+}
+
+.profil {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: white;
+    box-shadow: 3px 3px white , 0.5em 0.5em 0.5em 0.5em black;
+}
+.pagebio {
+    background-color: white;
+    padding-left: 20px;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0) , 0.5em 0.5em 0.5em black;
+    padding-left: 1%;
+    width: 60%;
+}
+
+.resume {
+    border-width: 10px;
+    width: 90%;
+}
+
+
+
+label{
+    font-size: small;
+}
+
+#NameDisplay{
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+}
+
+#job{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonlink{
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+margin-top: 270px;
+}
+
+#title1{
+    width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: solid;
+}
+
+
+
+.toppage{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+}
+
+.carousel-control-next {
+    top: 80px;
+    right: 25%;
+}
+
+.carousel-control-prev {
+    top: 80px;
+    left: 25%;
+}
+
+.turnpage{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}

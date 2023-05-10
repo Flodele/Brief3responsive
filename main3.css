@@ -128,21 +128,11 @@ margin-top: 270px;
 #title1{
     width: auto;
     padding-top: 1%;
-}
-
-#resumetext{
-    width: 55%;
-    border-top: solid;
-    border-right: solid;
-    border-bottom: solid;
-    
-}
-
-#resumetext2{
-    width: 55%;
-    border-top: solid;
+    padding-bottom: 1%;
     border-bottom: solid;
 }
+
+
 
 .toppage{
     display: flex;
