@@ -122,17 +122,27 @@ label{
 margin-top: 270px;
 }
 
+#resumetext1{
+    width: 55%;
+    border-top: solid;
+    border-right: solid;
+    padding-top: 0.5%;
+    
+}
+
 #resumetext{
     width: 55%;
     border-top: solid;
     border-right: solid;
     padding-top: 0.5%;
+    border-bottom: solid;
 }
 
 #resumetext2{
     width: 55%;
     border-top: solid;
     padding-left: 2%;
+    border-bottom: solid;
 }
 
 .toppage{
