@@ -35,6 +35,7 @@ body {
     width: 55%;
     border-top: solid;
     padding-left: 2%;
+    padding-top: 1%;
 }
 
 .compgroup{
@@ -125,8 +126,7 @@ margin-top: 270px;
     width: 55%;
     border-top: solid;
     border-right: solid;
-
-    
+    padding-top: 0.5%;
 }
 
 #resumetext2{
@@ -142,12 +142,29 @@ margin-top: 270px;
     width: 100%;
 }
 
-
-.turnpage{
+.turnpage1{
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.turnpage2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.turnpage3{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 2%;
     margin-left: 0.5%;
     margin-right: 0.5%;
 }
@@ -261,4 +278,27 @@ position: static;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-right: 1%;
+}
+
+#gmaillogo{
+    height: 30%;
+    width: 60%;
+    display: flex;
+    align-self: center;
+}
+
+#linklogo{
+    height: 30%;
+    width: 60%;
+    display: flex;
+    align-self: center;
+
+}
+
+#gitlogo{
+    height: 33%;
+    width: 40%;
+    display: flex;
+    align-self: center;
+
 }
