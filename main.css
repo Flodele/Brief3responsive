@@ -25,7 +25,7 @@ body {
     padding-left: 20px;
     box-shadow: 3px 3px rgba(255, 255, 255, 0) , 0.5em 0.5em 0.5em black;
     padding-left: 1%;
-    
+    padding-right: 5%;
 }
 
 .info2{
@@ -132,7 +132,7 @@ margin-top: 270px;
 #resumetext2{
     width: 55%;
     border-top: solid;
-    border-bottom: solid;
+    padding-left: 2%;
 }
 
 .toppage{
@@ -164,10 +164,20 @@ margin-top: 270px;
     display: flex;
     justify-content: end;
     align-items: center;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-left: 0.5%;
     margin-right: 0.5%;
 }
+
+.nextbutton1{
+    border:#666 1px solid;
+    font-size:24px;
+    cursor:pointer;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    margin-left: 50%;
+    }
 
 .nextbutton{
 border:#666 1px solid;
@@ -177,6 +187,7 @@ width:80px;
 height:80px;
 border-radius:50%;
 margin-bottom: 25%;
+margin-left: 50%;
 }
 
 h4{
@@ -253,7 +264,7 @@ border-bottom: none;
     padding-left: 20px;
     box-shadow: 3px 3px rgba(255, 255, 255, 0) , 0.5em 0.5em 0.5em black;
     padding-left: 1%;
-    
+    padding-right: 5%;
 }
 
 #title1{
@@ -281,14 +292,14 @@ position: static;
 }
 
 #gmaillogo{
-    height: 30%;
+    height: 35%;
     width: 60%;
     display: flex;
     align-self: center;
 }
 
 #linklogo{
-    height: 30%;
+    height: 35%;
     width: 60%;
     display: flex;
     align-self: center;
@@ -296,9 +307,18 @@ position: static;
 }
 
 #gitlogo{
-    height: 33%;
+    height: 40%;
     width: 40%;
     display: flex;
     align-self: center;
 
+}
+
+#title3{
+width: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: solid;
+    margin-right: 20%;
+    margin-bottom: 2%;
 }
