@@ -397,5 +397,7 @@ border-right: none;
         border-radius:50%;
         margin-left: 10%;
     }
+    .carousel-control-next, .carousel-control-prev {
+    bottom: -498px;
+    top: 800px;
      }
-
