@@ -1,3 +1,6 @@
+
+
+
 body {
     display: flex;
     justify-content: center;
@@ -5,7 +8,7 @@ body {
     margin-top: 15px;
     margin-right: 10%;
     margin-left: 10%;
-    background: linear-gradient(to bottom right, blue, pink);
+    background: linear-gradient(to bottom right, rgb(91, 71, 71), white);
     background-size: 90000%;
 }
 
@@ -61,8 +64,8 @@ body {
 
 #agelab{
     background-color: grey;
-padding: 2%;
-padding-right: 150px;
+    padding: 2%;
+    padding-right: 150px;
 }
 
 #natlab{
@@ -72,21 +75,21 @@ padding-right: 150px;
 }
 
 #input{
-
+    
     padding-right: 20%;
     border-bottom: solid;
-padding-right: 100px;   
+    padding-right: 100px;   
 }
 
 
 #htmllogo{
-object-fit: cover;
-width: 10%;
+    object-fit: cover;
+    width: 10%;
 }
 
 #csslogo{
-object-fit: cover;
-width: 14%;
+    object-fit: cover;
+    width: 14%;
 }
 
 .resume {
@@ -119,7 +122,7 @@ label{
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-margin-top: 270px;
+    margin-top: 270px;
 }
 
 #resumetext1{
@@ -187,14 +190,14 @@ margin-top: 270px;
     height:80px;
     border-radius:50%;
     margin-left: 50%;
-    }
+}
 
 .nextbutton{
-border:#666 1px solid;
-font-size:24px;
-cursor:pointer;
-width:80px;
-height:80px;
+    border:#666 1px solid;
+    font-size:24px;
+    cursor:pointer;
+    width:80px;
+    height:80px;
 border-radius:50%;
 margin-bottom: 25%;
 margin-left: 50%;
@@ -217,8 +220,8 @@ h4{
 .allmenu{
     display: flex;
     flex-direction: column;
-margin-right: 5px;
-
+    margin-right: 5px;
+    
 }
 
 .resum {
@@ -227,10 +230,10 @@ margin-right: 5px;
     flex-direction: column;
     align-items: center;
     padding-top: 15px;
-padding-bottom: 15px;
-border-top: none;
-border-left: none;
-border-right: none;
+    padding-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .pres{
@@ -251,11 +254,11 @@ border-right: none;
     flex-direction: column;
     align-items: center;
     padding-top: 15px;
-padding-bottom: 15px;
-border-top: none;
-border-left: none;
-border-right: none;
-border-bottom: none;
+    padding-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 .profil {
@@ -289,7 +292,7 @@ border-bottom: none;
 }
 
 .card{
-position: static;
+    position: static;
 }
 
 .resume2 {
@@ -297,7 +300,6 @@ position: static;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-right: 1%;
 }
 
@@ -313,7 +315,7 @@ position: static;
     width: 60%;
     display: flex;
     align-self: center;
-
+    
 }
 
 #gitlogo{
@@ -321,14 +323,24 @@ position: static;
     width: 40%;
     display: flex;
     align-self: center;
-
+    
 }
 
 #title3{
-width: auto;
+    width: auto;
     padding-top: 1%;
     padding-bottom: 1%;
     border-bottom: solid;
     margin-right: 20%;
     margin-bottom: 2%;
 }
+
+@media screen and (max-width: 480px) {
+        body{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .buttonlink{
+            margin-top: 0; 
+        }
+    } 
